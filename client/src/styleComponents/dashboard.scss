@@ -1,0 +1,117 @@
+.nav-dash-bg {
+	background-color: #604aea;
+	animation: fadeLeft 2s ease-in-out forwards;
+
+	.dash-link {
+		text-decoration: none;
+		color: $lightGrey;
+		font-size: 2.5rem;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		transition: 2ms;
+
+		&:hover {
+			color: white;
+		}
+	}
+
+	.logo-height {
+		height: 15%;
+		border-radius: 20px;
+	}
+
+	.d-m-items {
+		text-decoration: none;
+		color: $lightGrey;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.items-cont-dash {
+		border-radius: 20px;
+
+		.nav-sub-title {
+			color: $lightGrey;
+		}
+	}
+}
+
+.d-heading {
+	height: 15%;
+	animation: fadeDown 2s ease-in-out forwards;
+}
+
+.logout-cont {
+	height: 10%;
+
+	.logout {
+		background-color: $lightGrey;
+		color: red;
+		text-decoration: none;
+		padding: 5% 10%;
+		border-radius: 10px;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+	}
+}
+
+.dash-display {
+	height: 80%;
+	overflow-y: scroll;
+}
+
+.product-card {
+	border-radius: 20px;
+	height: 300px;
+	width: 400px;
+}
+
+.drag-drop-csv {
+	display: inline-block;
+	padding: 15% 10%;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.background-green {
+	background-color: #ccffcc;
+}
+
+.background-white {
+	background-color: white;
+}
+
+.table-modal {
+	border: 1px solid black;
+	border-radius: 10px;
+	z-index: 1;
+}
+
+.card-text {
+	h2 {
+		color: #646464;
+	}
+	p {
+		font-size: 1.5rem;
+		color: #aaa5a5;
+	}
+	.btn-link {
+		display: block;
+		background-color: #604aea;
+		text-decoration: none;
+		color: white;
+		padding: 2% 10%;
+		border-radius: 10px;
+	}
+}
+
+.green {
+	color: lightgreen;
+}
+
+.red {
+	color: red;
+}
+
+.fade-up {
+	animation: fadeUp 2s ease-in-out forwards;
+}

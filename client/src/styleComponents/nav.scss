@@ -1,0 +1,40 @@
+$lightBlack: #5a5a5a;
+
+.navbar {
+	animation: fadeDown 2s ease-in-out forwards;
+}
+
+.navbar-brand {
+	font-weight: medium;
+	color: $lightBlack !important;
+	font-size: 2rem;
+}
+
+.searchBar {
+	border-radius: 10px;
+	width: 300px;
+	outline: none;
+	border: none;
+	color: #9b9b9b;
+}
+
+.s-icon {
+	top: 50%;
+	left: 5%;
+	transform: translate(-50%, -50%);
+	color: #9b9b9b;
+}
+
+.menu-links a {
+	text-decoration: none;
+	color: $lightBlack;
+	font-weight: bold;
+
+	h5 {
+		font-weight: bold;
+	}
+}
+
+img {
+	display: block;
+}

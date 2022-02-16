@@ -1,0 +1,40 @@
+.cont-main {
+	height: 90%;
+}
+
+.text-cont {
+	animation: fadeLeft 2s ease-in-out forwards;
+	h1 {
+		font-size: 100px;
+		font-weight: lighter;
+		color: $lightBlack;
+		line-height: 100%;
+	}
+
+	p {
+		font-size: 30px;
+		color: #929191;
+		font-weight: lighter;
+	}
+
+	a {
+		text-decoration: none;
+		background-color: #604aea;
+		color: white;
+		font-size: 25px;
+		font-weight: normal;
+		border-radius: 15px;
+		padding: 1% 6%;
+		align-self: flex-start;
+	}
+}
+
+.svg-1 {
+	opacity: 0;
+	animation: fadeDown 2s ease-in-out forwards;
+}
+
+.svg-2 {
+	opacity: 0;
+	animation: fadeUp 2s ease-in-out forwards;
+}

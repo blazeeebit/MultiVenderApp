@@ -1,0 +1,27 @@
+$lightGrey: #ededed;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: $lightGrey;
+}
+
+.padding {
+	padding: 0 10%;
+}
+
+.main-cont {
+	height: 100%;
+	min-height: 100%;
+}
